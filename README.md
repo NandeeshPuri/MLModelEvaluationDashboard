@@ -71,30 +71,30 @@ Grid Search, Random Search, and Bayesian Optimization help improve model perform
 4. Performance Evaluation
 Models are evaluated using:
 
-Accuracy
+- Accuracy
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1-score
+- F1-score
 
-R² Score (where applicable)
+- R² Score (where applicable)
 
 5. Dashboard Visualization
 The dashboard presents:
 
--Metric comparison (before vs. after tuning)
--Confusion matrices
--Feature importance (for applicable models)
+- Metric comparison (before vs. after tuning)
+- Confusion matrices
+- Feature importance (for applicable models)
 
 
 🤝 Contributing
--Fork the repository
--Create your branch: git checkout -b feature/amazing-feature
--Commit your changes: git commit -m 'Add amazing feature'
--Push to the branch: git push origin feature/amazing-feature
--Open a Pull Request
+- Fork the repository
+- Create your branch: git checkout -b feature/amazing-feature
+- Commit your changes: git commit -m 'Add amazing feature'
+- Push to the branch: git push origin feature/amazing-feature
+- Open a Pull Request
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
