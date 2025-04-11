@@ -11,22 +11,7 @@ Interactive dashboard for model comparison
 Comprehensive performance metrics (accuracy, precision, recall, F1-score, R2)
 Visual comparison of model performance before and after tuning
 
-File Structure
-dashboard/
-├── assets/
-│   └── styles.css
-├── components/
-│   ├── callbacks.py
-│   ├── data_loader.py
-│   └── layout.py
-├── model_outputs/
-├── venv/
-├── app.py
-├── config.py
-├── requirements.txt
-├── .gitignore
-├── MLmodelEvaluation.ipynb
-└── README.md
+
 Technologies Used
 
 Python: Core programming language
