@@ -1,0 +1,74 @@
+/* Main styles for the dashboard */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+/* Make Plotly graphs responsive */
+.js-plotly-plot .plotly {
+    width: 100%;
+}
+
+/* Custom tooltip styles */
+.dash-tooltip {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for dropdown menus */
+.Select-control {
+    border-radius: 4px !important;
+    border-color: #dce4ec !important;
+}
+
+.Select-menu-outer {
+    background-color: white !important;
+    border-radius: 0 0 4px 4px !important;
+}
+
+/* Better hover state for clickable items */
+.clickable:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Panel styling */
+.panel {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Header styling */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .half-panel {
+        width: 100% !important;
+        float: none !important;
+        margin-bottom: 20px;
+    }
+}
